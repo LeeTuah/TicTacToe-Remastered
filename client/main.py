@@ -16,7 +16,7 @@ if __name__ == '__main__':
         clear()
         print('Choose any one of the following: ')
         print('1. Singleplayer')
-        print('2. Multiplayer (in development)')
+        print('2. Multiplayer')
         print('3. Controls')
         print('4. Quit Game')
         print('\n>> ', end='')
@@ -51,3 +51,4 @@ Press any key to continue...
 
             case '\'4\'':
                 looping = False
+
