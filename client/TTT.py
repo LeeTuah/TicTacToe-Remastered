@@ -172,3 +172,9 @@ class TTT:
                 slow_print(game_over_text, 1)
                 print('\nYou Lost.')
                 time.sleep(sleep_amount)
+
+        self.board = [
+            [0, 0, 0],
+            [0, 0, 0],
+            [0, 0, 0]
+        ]
