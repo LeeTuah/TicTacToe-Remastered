@@ -88,7 +88,7 @@ These commands are NOT meant to be used directly, they are just for there for cl
 │   ├── main.py           # Entry point. Handles the main menu and mode selection.
 │   ├── TTT.py            # Core Game Logic. Board rendering, win detection, and input handling.
 │   ├── multiplayer.py    # Socket client logic. Handles sending/receiving packets.
-│   ├── singleplayer.py   # Inherits from TTT. Implements AI logic.
+│   ├── singleplayer.py   # Handles Code for running in Singleplayer mode.
 │   ├── intro.py          # ASCII art animations and loading screens.
 ```
 
@@ -109,5 +109,6 @@ Win detection is **decentralized**. Both clients check the board state after eve
 * **Focus Requirement:** You must have the terminal window active/focused for keys to register (feature of `pygetwindow` integration).
 
 ---
+
 
 **Created solely by LeeTuah**
