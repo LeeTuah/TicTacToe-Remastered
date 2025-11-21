@@ -41,6 +41,7 @@ Before running the game, you must configure the IP address to match your network
 
 **Step 1: Start the Server** (ONLY if you are hosting the server, not necessary if hosted seperately).
 
+(NOTE: You can use the executable if you are Windows instead of running the program itself.)
 Open a terminal in the `server/` directory:
 ```bash
 python main.py
@@ -48,6 +49,8 @@ python main.py
 *The server will start listening on port 6741.*
 
 **Step 2: Start the Client(s)**
+
+(NOTE: You can use the executable if you are Windows instead of running the program itself.)
 Open a new terminal (or multiple for multiplayer) in the `client/` directory:
 ```bash
 python main.py
@@ -112,3 +115,4 @@ Win detection is **decentralized**. Both clients check the board state after eve
 
 
 **Created solely by LeeTuah**
+
